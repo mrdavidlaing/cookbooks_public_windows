@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "description": "Microsoft SQL 2008 Enterprise Bits",
+  "long_description": "Microsoft SQL 2008 Enterprise Bits",
+  "maintainer": "Ryan J. Geyer",
+  "maintainer_email": "rgeyer@its.jnj.com",
+  "name": "db_mssql",
+  "recipes": {
+    "db_mssql::default": "Runs db_mssql::install",
+    "db_mssql::install": "Installs Microsoft SQL 2008 Enterprise Server with specified options"
+  },
+  "attributes": {
+    "db_mssql/security_mode": {
+      "display_name": "What type of logins the server will accept.  Only Active Directory logins if set to 'Windows', mixed mode if set to 'SQL'",
+      "description": "What type of logins the server will accept.  Only Active Directory logins if set to 'Windows', mixed mode if set to 'SQL'",
+      "recipes": [
+        "db_mssql::default",
+        "db_mssql::install"
+      ],
+      "choice": [
+        "Windows",
+        "SQL"
+      ],
+      "required": "required"
+    }
+  }
+}

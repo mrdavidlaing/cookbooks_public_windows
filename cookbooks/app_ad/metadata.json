@@ -1,0 +1,103 @@
+{
+    "providing": {
+    },
+    "description": "ActiveDirectory recipes",
+    "replacing": {
+    },
+    "groupings": {
+    },
+    "attributes": {
+      "ad/admin_password": {
+        "required": "required",
+        "calculated": false,
+        "choice": [
+
+        ],
+        "type": "string",
+        "recipes": [
+          "app_ad::join"
+        ],
+        "display_name": "Domain administrator password",
+        "description": "Password of domain account used to add computers to the domain"
+      },
+      "ad/user_password": {
+        "required": "required",
+        "calculated": false,
+        "choice": [
+
+        ],
+        "type": "string",
+        "recipes": [
+          "app_ad::add_user",
+          "app_ad::remote_add_user"
+        ],
+        "display_name": "Application password",
+        "description": "New Active Directory domain account password"
+      },
+      "ad/domain": {
+        "required": "required",
+        "calculated": false,
+        "choice": [
+
+        ],
+        "type": "string",
+        "recipes": [
+          "app_ad::add_user",
+          "app_ad::remote_add_user",
+          "app_ad::join"
+        ],
+        "display_name": "Domain name",
+        "description": "Active Directory domain name"
+      },
+      "ad/admin_username": {
+        "required": "required",
+        "calculated": false,
+        "choice": [
+
+        ],
+        "type": "string",
+        "recipes": [
+          "app_ad::join"
+        ],
+        "display_name": "Domain administrator username",
+        "description": "Username of domain account used to add computers to domain"
+      },
+      "ad/user_username": {
+        "required": "required",
+        "calculated": false,
+        "choice": [
+
+        ],
+        "type": "string",
+        "recipes": [
+          "app_ad::add_user",
+          "app_ad::remote_add_user"
+        ],
+        "display_name": "Application username",
+        "description": "New Active Directory domain account username"
+      }
+    },
+    "long_description": "",
+    "recipes": {
+      "app_ad::setup_controller": "Sets up domain controller tag",
+      "app_ad::join": "Join instance to domain",
+      "app_ad::remote_add_user": "Creates a new Active Directory user account, can be run anywhere",
+      "app_ad::add_user": "Creates a new Active Directory user account, must be run on Domain Controller",
+      "app_ad::set_dns_server": "Set DNS server entries"
+    },
+    "recommendations": {
+    },
+    "dependencies": {
+    },
+    "maintainer": "Your Name",
+    "suggestions": {
+    },
+    "platforms": {
+    },
+    "name": "app_ad",
+    "version": "0.0.1",
+    "license": "Apache v2.0",
+    "maintainer_email": "youremail@example.com",
+    "conflicting": {
+    }
+  }
