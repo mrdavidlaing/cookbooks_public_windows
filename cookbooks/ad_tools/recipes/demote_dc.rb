@@ -24,7 +24,7 @@ powershell "Demote AD" do
   $ansStream.WriteLine("RebootOnCompletion=No")
   $ansStream.close()
 
-  start-process -FilePath "$env:windir\Sysnative\dcpromo.exe" -ArgumentList /answer:C:\answers.txt -Wait
+  start-process -FilePath "$env:windir\Sysnative\dcpromo.exe" -ArgumentList /answer:C:\answers.txt
 
   del "C:\answers.txt"
 POWERSHELL_SCRIPT
