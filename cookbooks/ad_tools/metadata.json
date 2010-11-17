@@ -1,48 +1,89 @@
 {
-  "version": "0.0.1",
-  "description": "Configures Windows 2008 Servers to act as primary or backup domian controllers.  Provides some other useful tools for domain controllers as well",
-  "maintainer": "Ryan J. Geyer",
-  "maintainer_email": "rgeyer@its.jnj.com",
-  "name": "ad_tools",
-  "depends": "utilities",
-  "long_description": "= DESCRIPTION:\n\nConfigures Windows 2008 Servers to act as primary or backup domian controllers.  Provides some other useful tools for domain controllers as well",
   "recipes": {
-    "ad_tools::initialize_bdc": "Runs dcpromo with appropriate answers to create a backup or slave domain controller for the specified domain",
-    "ad_tools::demote_dc": "Removes the domain controller from the forest and uninstalls the AD binaries"
+    "ad_tools::demote_dc": "Removes the domain controller from the forest and uninstalls the AD binaries",
+    "ad_tools::initialize_bdc": "Runs dcpromo with appropriate answers to create a backup or slave domain controller for the specified domain"
+  },
+  "suggestions": {
+  },
+  "license": "Apache v2.0",
+  "long_description": "",
+  "conflicting": {
+  },
+  "dependencies": {
+    "utilities": [
+
+    ]
+  },
+  "providing": {
+  },
+  "description": "Configures Windows 2008 Servers to act as primary or backup domian controllers.  Provides some other useful tools for domain controllers as well",
+  "platforms": {
+  },
+  "maintainer": "Ryan J. Geyer",
+  "version": "0.0.1",
+  "replacing": {
+  },
+  "maintainer_email": "rgeyer@its.jnj.com",
+  "groupings": {
+  },
+  "name": "ad_tools",
+  "recommendations": {
   },
   "attributes": {
+    "ad_tools/domain_name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "ad_tools::initialize_bdc"
+      ],
+      "display_name": "FQDN of new or replicated active directory domain",
+      "description": "FQDN of new or replicated active directory domain"
+    },
     "ad_tools/admin_user": {
-      "display_name": "Domain Administrator Username",
-      "description": "Domain Administratoru Username",
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
       "recipes": [
         "ad_tools::initialize_bdc",
         "ad_tools::demote_dc"
       ],
-      "required": "required"
+      "display_name": "Domain Administrator Username",
+      "description": "Domain Administratoru Username"
     },
     "ad_tools/admin_domain": {
-      "display_name": "Domain Administrator Domain",
-      "description": "Domain Administrator Domain.  The <domain> part of <domain>\<username> for an active directory username",
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
       "recipes": [
         "ad_tools::initialize_bdc",
         "ad_tools::demote_dc"
       ],
-      "required": "required"
+      "display_name": "Domain Administrator Domain",
+      "description": "Domain Administrator Domain.  The <domain> part of <domain><username> for an active directory username"
     },
     "ad_tools/admin_pass": {
-      "display_name": "Domain Administrator Password",
-      "description": "Domain Administrator Password",
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
       "recipes": [
         "ad_tools::initialize_bdc",
         "ad_tools::demote_dc"
       ],
-      "required": "required"
-    },
-    "ad_tools/domain_name": {
-      "display_name": "FQDN of new or replicated active directory domain",
-      "description": "FQDN of new or replicated active directory domain",
-      "recipes": [ "ad_tools::initialize_bdc" ],
-      "required": "required"
+      "display_name": "Domain Administrator Password",
+      "description": "Domain Administrator Password"
     }
   }
 }
