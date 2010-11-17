@@ -25,7 +25,7 @@
       "description": "Domain Administrator Domain.  The <domain> part of <domain>\<username> for an active directory username",
       "recipes": [
         "ad_tools::initialize_bdc",
-        "ad_tools:demote_dc"
+        "ad_tools::demote_dc"
       ],
       "required": "required"
     },

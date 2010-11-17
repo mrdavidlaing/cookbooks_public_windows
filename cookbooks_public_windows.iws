@@ -129,10 +129,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demote_dc.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="demote_dc.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="98" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.33656958">
+            <state line="26" column="98" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="metadata.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="19" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.35526314">
               <folding />
             </state>
           </provider>
@@ -167,6 +176,7 @@
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/recipes/default.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.json" />
       </list>
     </option>
   </component>
@@ -705,13 +715,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="19" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
@@ -735,7 +738,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="98" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.33656958">
+        <state line="26" column="98" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="19" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.35526314">
           <folding />
         </state>
       </provider>
