@@ -111,64 +111,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="join.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/recipes/join.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="40" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bdc.ps1" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/init_bdc/bdc.ps1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="44" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="metadata.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/metadata.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/db_mssql/attributes/default.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="77" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="initialize_bdc.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="959" selection-end="959" vertical-scroll-proportion="0.34951457">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="set_hostname.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/set_hostname.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/recipes/setup_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="19" selection-start="121" selection-end="121" vertical-scroll-proportion="0.025889968">
               <folding />
             </state>
           </provider>
@@ -191,6 +137,7 @@
         <option value="$PROJECT_DIR$/cookbooks/app_ad/recipes/join.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/init_bdc/bdc.ps1" />
         <option value="$PROJECT_DIR$/cookbooks/db_mssql/attributes/defaults.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/mnt_utils/recipes/default.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
       </list>
     </option>
@@ -644,14 +591,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/recipes/join.rb">
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/set_dns.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/init_bdc/bdc.ps1">
+    <entry file="file://$PROJECT_DIR$/cookbooks/db_mssql/attributes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
+        <state line="4" column="77" selection-start="401" selection-end="401" vertical-scroll-proportion="0.051779937">
           <folding />
         </state>
       </provider>
@@ -661,21 +610,23 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/recipes/setup_controller.rb">
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/init_bdc/bdc.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/db_mssql/attributes/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="77" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+        <state line="19" column="44" selection-start="886" selection-end="886" vertical-scroll-proportion="0.24595469">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/set_dns.rb">
+    <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/recipes/join.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="22" column="40" selection-start="481" selection-end="481" vertical-scroll-proportion="0.28478965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="308" selection-end="308" vertical-scroll-proportion="0.16828479">
           <folding />
         </state>
       </provider>
@@ -687,9 +638,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/recipes/setup_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="959" selection-end="959" vertical-scroll-proportion="0.34951457">
+        <state line="2" column="19" selection-start="121" selection-end="121" vertical-scroll-proportion="0.025889968">
           <folding />
         </state>
       </provider>

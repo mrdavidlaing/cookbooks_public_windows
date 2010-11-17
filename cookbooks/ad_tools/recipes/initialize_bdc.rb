@@ -1,6 +1,6 @@
 log "Hostname Set is #{@node[:mnt_utils_hostname_set]}"
 log "DNS Set is #{@node[:mnt_utils_dns_set]}"
-log "BDC Init is #{@node@node[:ad_tools_is_bdc]}"
+log "BDC Init is #{@node[:ad_tools_is_bdc]}"
 log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set]}"
 
 unless @node[:ad_tools_is_bdc]
