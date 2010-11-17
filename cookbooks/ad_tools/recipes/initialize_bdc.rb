@@ -1,9 +1,11 @@
+ntds_dir = "C:\\Windows\\NTDS"
+
 log "Hostname Set is #{@node[:mnt_utils_hostname_set]}"
 log "DNS Set is #{@node[:mnt_utils_dns_set]}"
-log "NTDS exists is #{File.directory? "C:\\Windows\\NTDS"}"
+log "NTDS exists is #{File.directory? ntds_dir}"
 log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set]}"
 
-if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !File.directory? "C:\\Windows\\NTDS")
+if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !File.directory? ntds_dir)
   log "Entered if other scripts run"
 
   ad_tools_init_bdc "Create answers file, run dcpromo with it, then delete it" do
