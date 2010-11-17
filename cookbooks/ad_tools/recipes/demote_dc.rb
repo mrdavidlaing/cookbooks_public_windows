@@ -21,7 +21,7 @@ powershell "Demote AD" do
   # TODO: These should really be discreet inputs
   $ansStream.WriteLine("DNSDelegationUserName=$env:ADMIN_USER")
   $ansStream.WriteLine("DNSDelegationPassword=$env:ADMIN_PASS")
-  $ansStream.WriteLine("RebootOnCompletion=yes")
+  $ansStream.WriteLine("RebootOnCompletion=No")
   $ansStream.close()
 
   start-process -FilePath "$env:windir\Sysnative\dcpromo.exe" -ArgumentList /answer:C:\answers.txt -Wait
