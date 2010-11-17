@@ -18,12 +18,12 @@ powershell "Demote AD" do
   $ansStream.WriteLine("AdministratorPassword=$env:ADMIN_PASS")
   $ansStream.WriteLine("RemoveApplicationPartitions=yes")
   # TODO: This should probably be no, we should look into exactly what this entails
-  $ansStream.WriteLine("RemoveDNSDelegation=yes")
+  $ansStream.WriteLine("RemoveDNSDelegation=No")
   # TODO: These should really be discreet inputs
-  $ansStream.WriteLine("DNSDelegationUserName=$env:ADMIN_USER")
-  $ansStream.WriteLine("DNSDelegationPassword=$env:ADMIN_PASS")
-  $ansStream.WriteLine("RebootOnCompletion=No")
-  $ansStream.close()
+  #$ansStream.WriteLine("DNSDelegationUserName=$env:ADMIN_USER")
+  #$ansStream.WriteLine("DNSDelegationPassword=$env:ADMIN_PASS")
+  #$ansStream.WriteLine("RebootOnCompletion=No")
+  #$ansStream.close()
 
   start-process -FilePath "$env:windir\Sysnative\dcpromo.exe" -ArgumentList /answer:C:\answers.txt -Wait
 
