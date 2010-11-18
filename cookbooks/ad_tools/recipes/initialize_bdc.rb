@@ -6,10 +6,10 @@ ntds_dir = "C:\\Windows\\NTDS"
 
 log "Hostname Set is #{@node[:mnt_utils_hostname_set]}"
 log "DNS Set is #{@node[:mnt_utils_dns_set]}"
-log "NTDS exists is #{default[:ad_bdc_initialized]}"
-log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !default[:ad_bdc_initialized]}"
+#log "NTDS exists is #{default[:ad_bdc_initialized]}"
+log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set]}"
 
-if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !default[:ad_bdc_initialized] )
+if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !File.directory? ntds_dir)
   log "Entered if other scripts run"
   template "C:\\answers.txt" do
     source "answers_bdc.txt.erb"
@@ -23,5 +23,4 @@ if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !default[:ad_b
   right_link_tag "ad:role=bdc"
 
   #@node[:ad_tools_is_bdc] = true
-  default[:ad_bdc_initialized] = false
 end

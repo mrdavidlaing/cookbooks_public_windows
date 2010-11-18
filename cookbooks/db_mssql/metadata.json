@@ -1,27 +1,46 @@
 {
-  "version": "0.0.1",
-  "description": "Microsoft SQL 2008 Enterprise Bits",
-  "long_description": "Microsoft SQL 2008 Enterprise Bits",
-  "maintainer": "Ryan J. Geyer",
-  "maintainer_email": "rgeyer@its.jnj.com",
-  "name": "db_mssql",
   "recipes": {
-    "db_mssql::default": "Runs db_mssql::install",
-    "db_mssql::install": "Installs Microsoft SQL 2008 Enterprise Server with specified options"
+    "db_mssql::install": "Installs Microsoft SQL 2008 Enterprise Server with specified options",
+    "db_mssql::default": "Runs db_mssql::install"
+  },
+  "suggestions": {
+  },
+  "license": "Apache v2.0",
+  "long_description": "Microsoft SQL 2008 Enterprise Bits",
+  "conflicting": {
+  },
+  "dependencies": {
+  },
+  "providing": {
+  },
+  "description": "Microsoft SQL 2008 Enterprise Bits",
+  "platforms": {
+  },
+  "maintainer": "Ryan J. Geyer",
+  "version": "0.0.1",
+  "replacing": {
+  },
+  "maintainer_email": "rgeyer@its.jnj.com",
+  "groupings": {
+  },
+  "name": "db_mssql",
+  "recommendations": {
   },
   "attributes": {
     "db_mssql/security_mode": {
-      "display_name": "What type of logins the server will accept.  Only Active Directory logins if set to 'Windows', mixed mode if set to 'SQL'",
-      "description": "What type of logins the server will accept.  Only Active Directory logins if set to 'Windows', mixed mode if set to 'SQL'",
-      "recipes": [
-        "db_mssql::default",
-        "db_mssql::install"
-      ],
+      "required": "required",
+      "calculated": false,
       "choice": [
         "Windows",
         "SQL"
       ],
-      "required": "required"
+      "type": "string",
+      "recipes": [
+        "db_mssql::default",
+        "db_mssql::install"
+      ],
+      "display_name": "What type of logins the server will accept.  Only Active Directory logins if set to 'Windows', mixed mode if set to 'SQL'",
+      "description": "What type of logins the server will accept.  Only Active Directory logins if set to 'Windows', mixed mode if set to 'SQL'"
     }
   }
 }

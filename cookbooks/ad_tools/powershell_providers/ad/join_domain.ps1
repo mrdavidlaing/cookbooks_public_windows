@@ -1,4 +1,4 @@
-# ActiveDirectoryProvider#join
+# ActiveDirectoryProvider#join_domain
 $Domain   = Get-ChefNode ad_tools, admin_domain
 $UserName = Get-ChefNode ad_tools, admin_user
 $Password = Get-ChefNode ad_tools, admin_pass

@@ -1,6 +1,8 @@
 maintainer "Ryan J. Geyer"
 maintainer_email "rgeyer@its.jnj.com"
 description "Configures Windows 2008 Servers to act as primary or backup domian controllers.  Provides some other useful tools for domain controllers as well"
+long_description "Configures Windows 2008 Servers to act as primary or backup domian controllers.  Provides some other useful tools for domain controllers as well"
+name "ad_tools"
 version "0.0.1"
 
 recipe "ad_tools::initialize_bdc", "Runs dcpromo with appropriate answers to create a backup or slave domain controller for the specified domain"

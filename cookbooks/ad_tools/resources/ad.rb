@@ -1,4 +1,4 @@
-actions :initialize_bdc :join_domain
+actions :initialize_bdc :join_domain :unattended_dcpromo
 
 attribute :admin_user, :kind_of => [String]
 attribute :admin_domain, :kind_of => [String]

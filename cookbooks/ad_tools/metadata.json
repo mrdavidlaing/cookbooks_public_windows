@@ -7,7 +7,7 @@
   "suggestions": {
   },
   "license": "Apache v2.0",
-  "long_description": "",
+  "long_description": "Configures Windows 2008 Servers to act as primary or backup domian controllers.  Provides some other useful tools for domain controllers as well",
   "conflicting": {
   },
   "dependencies": {
