@@ -8,12 +8,17 @@ recipe "ad_tools::demote_dc", "Removes the domain controller from the forest and
 
 depends "utilities"
 
+attribute "utilities/admin_password",
+  :display_name => "New administrator password",
+  :description => "New administrator password",
+  :recipes => [ "ad_tools::demote_dc"],
+  :required => "required"
+
 attribute "ad_tools/admin_user",
           :display_name => "Domain Administrator Username",
           :description => "Domain Administratoru Username",
           :recipes => [
-            "ad_tools::initialize_bdc",
-            "ad_tools::demote_dc"
+            "ad_tools::initialize_bdc"
           ],
           :required => "required"
 
@@ -21,8 +26,7 @@ attribute "ad_tools/admin_domain",
           :display_name => "Domain Administrator Domain",
           :description => "Domain Administrator Domain.  The <domain> part of <domain>\<username> for an active directory username",
           :recipes => [
-            "ad_tools::initialize_bdc",
-            "ad_tools::demote_dc"
+            "ad_tools::initialize_bdc"
           ],
           :required => "required"
 
@@ -30,13 +34,14 @@ attribute "ad_tools/admin_pass",
           :display_name => "Domain Administrator Password",
           :description => "Domain Administrator Password",
           :recipes => [
-            "ad_tools::initialize_bdc",
-            "ad_tools::demote_dc"
+            "ad_tools::initialize_bdc"
           ],
           :required => "required"
 
 attribute "ad_tools/domain_name",
           :display_name => "FQDN of new or replicated active directory domain",
           :description => "FQDN of new or replicated active directory domain",
-          :recipes => [ "ad_tools::initialize_bdc" ],
+          :recipes => [ "ad_tools::initialize_bdc",
+            "ad_tools::demote_dc"
+          ],
           :required => "required"

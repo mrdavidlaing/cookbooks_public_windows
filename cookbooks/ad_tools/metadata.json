@@ -38,7 +38,8 @@
       ],
       "type": "string",
       "recipes": [
-        "ad_tools::initialize_bdc"
+        "ad_tools::initialize_bdc",
+        "ad_tools::demote_dc"
       ],
       "display_name": "FQDN of new or replicated active directory domain",
       "description": "FQDN of new or replicated active directory domain"
@@ -51,11 +52,23 @@
       ],
       "type": "string",
       "recipes": [
-        "ad_tools::initialize_bdc",
-        "ad_tools::demote_dc"
+        "ad_tools::initialize_bdc"
       ],
       "display_name": "Domain Administrator Username",
       "description": "Domain Administratoru Username"
+    },
+    "utilities/admin_password": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "ad_tools::demote_dc"
+      ],
+      "display_name": "New administrator password",
+      "description": "New administrator password"
     },
     "ad_tools/admin_domain": {
       "required": "required",
@@ -65,8 +78,7 @@
       ],
       "type": "string",
       "recipes": [
-        "ad_tools::initialize_bdc",
-        "ad_tools::demote_dc"
+        "ad_tools::initialize_bdc"
       ],
       "display_name": "Domain Administrator Domain",
       "description": "Domain Administrator Domain.  The <domain> part of <domain><username> for an active directory username"
@@ -79,8 +91,7 @@
       ],
       "type": "string",
       "recipes": [
-        "ad_tools::initialize_bdc",
-        "ad_tools::demote_dc"
+        "ad_tools::initialize_bdc"
       ],
       "display_name": "Domain Administrator Password",
       "description": "Domain Administrator Password"

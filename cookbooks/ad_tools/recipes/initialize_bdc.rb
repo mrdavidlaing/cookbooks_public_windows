@@ -1,3 +1,7 @@
+# TODO: When a machine becomes a domain controller, local users and groups are destroyed/ignored
+# Need to get rightlink setup with the correct credentials to be able to continue running
+# RightLink service - Needs AD service account?
+
 ntds_dir = "C:\\Windows\\NTDS"
 
 log "Hostname Set is #{@node[:mnt_utils_hostname_set]}"
