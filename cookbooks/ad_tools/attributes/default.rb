@@ -1,1 +1,1 @@
-default[:ad_bdc_initialized] = false
+#default[:ad_bdc_initialized] = false
