@@ -9,7 +9,7 @@ log "DNS Set is #{@node[:mnt_utils_dns_set]}"
 #log "NTDS exists is #{default[:ad_bdc_initialized]}"
 log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set]}"
 
-if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !File.directory? ntds_dir)
+if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !File.directory?(ntds_dir))
   log "Entered if other scripts run"
   answers_file = "C:\\answers.txt"
 
