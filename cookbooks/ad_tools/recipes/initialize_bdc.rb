@@ -18,8 +18,10 @@ if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_bdc
   end
 
   ad_tools_ad "Promote Server To BDC" do
-    :unattended_dcpromo
+    action :unattended_dcpromo
   end
+
+  log "Got past that ish yo!"
 
 #  powershell "Promote BDC" do
 #    powershell_script = <<'POWERSHELL_SCRIPT'
