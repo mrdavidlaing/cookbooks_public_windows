@@ -1,0 +1,1 @@
+default[:ad_bdc_initialized] = false

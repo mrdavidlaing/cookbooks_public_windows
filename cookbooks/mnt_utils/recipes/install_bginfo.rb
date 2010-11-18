@@ -18,7 +18,6 @@ powershell "Install BGInfo & add to startup items" do
   attachments_path = File.expand_path(File.join(File.dirname(__FILE__), '..', 'files', 'install_bginfo'))
   parameters({
     'ATTACHMENTS_PATH' => attachments_path,
-    'STARTUP_FILE' => startup_file,
     'BGINFO_PATH' => bginfo_path
   })
 

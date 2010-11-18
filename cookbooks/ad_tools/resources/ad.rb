@@ -1,4 +1,4 @@
-actions :bdc
+actions :initialize_bdc :join_domain
 
 attribute :admin_user, :kind_of => [String]
 attribute :admin_domain, :kind_of => [String]

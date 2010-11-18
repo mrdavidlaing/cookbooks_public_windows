@@ -1,6 +1,7 @@
 {
   "recipes": {
     "ad_tools::demote_dc": "Removes the domain controller from the forest and uninstalls the AD binaries",
+    "ad_tools::join_domain": "Adds the node to an existing domain",
     "ad_tools::initialize_bdc": "Runs dcpromo with appropriate answers to create a backup or slave domain controller for the specified domain"
   },
   "suggestions": {
@@ -39,7 +40,8 @@
       "type": "string",
       "recipes": [
         "ad_tools::initialize_bdc",
-        "ad_tools::demote_dc"
+        "ad_tools::demote_dc",
+        "ad_tools::join_domain"
       ],
       "display_name": "FQDN of new or replicated active directory domain",
       "description": "FQDN of new or replicated active directory domain"
@@ -52,7 +54,8 @@
       ],
       "type": "string",
       "recipes": [
-        "ad_tools::initialize_bdc"
+        "ad_tools::initialize_bdc",
+        "ad_tools::join_domain"
       ],
       "display_name": "Domain Administrator Username",
       "description": "Domain Administratoru Username"
@@ -78,7 +81,8 @@
       ],
       "type": "string",
       "recipes": [
-        "ad_tools::initialize_bdc"
+        "ad_tools::initialize_bdc",
+        "ad_tools::join_domain"
       ],
       "display_name": "Domain Administrator Domain",
       "description": "Domain Administrator Domain.  The <domain> part of <domain><username> for an active directory username"
@@ -91,7 +95,8 @@
       ],
       "type": "string",
       "recipes": [
-        "ad_tools::initialize_bdc"
+        "ad_tools::initialize_bdc",
+        "ad_tools::join_domain"
       ],
       "display_name": "Domain Administrator Password",
       "description": "Domain Administrator Password"
