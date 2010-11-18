@@ -16,10 +16,10 @@ if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !File.director
   template answers_file do
     source "answers_bdc.txt.erb"
   end
-
-  ad_tools_ad "Promote Server To BDC" do
-    :unattended_dcpromo
-  end
+#
+#  ad_tools_ad "Promote Server To BDC" do
+#    :unattended_dcpromo
+#  end
 
 #  powershell "Promote BDC" do
 #    powershell_script = <<'POWERSHELL_SCRIPT'
