@@ -14,10 +14,25 @@ app_ad_dns_server domain do
 end
 
 ## 3. Join domain
-ad_tools_ad domain do
-  admin_user admin_username
-  admin_pass admin_password
-  action :join_domain
+#ad_tools_ad domain do
+#  admin_user admin_username
+#  admin_pass admin_password
+#  action :join
+#end
+powershell "Join domain" do
+  powershell_script = <<EOF
+  # ActiveDirectoryProvider#join_domain
+  $Domain   = Get-ChefNode ad_tools, admin_domain
+  $UserName = Get-ChefNode ad_tools, admin_user
+  $Password = Get-ChefNode ad_tools, admin_pass
+  $Password = ConvertTo-SecureString $Password -AsPlainText -Force
+
+  $UserName = "$Domain\$UserName"
+  $Cred = New-Object System.Management.Automation.PSCredential $UserName, $Password
+  Add-Computer -credential $Cred -DomainName $Domain
+EOF
+
+  #source(powershell_script)
 end
 
 right_link_tag "ad:domain=#{@node[:ad_tools][:domain_name]}"
