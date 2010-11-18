@@ -6,7 +6,7 @@ ntds_dir = "C:\\Windows\\NTDS"
 
 log "Hostname Set is #{@node[:mnt_utils_hostname_set]}"
 log "DNS Set is #{@node[:mnt_utils_dns_set]}"
-#log "NTDS exists is #{default[:ad_bdc_initialized]}"
+log "Default ad_bdc_init is #{default[:ad_bdc_initialized]}"
 log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set]}"
 
 if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !File.directory?(ntds_dir))

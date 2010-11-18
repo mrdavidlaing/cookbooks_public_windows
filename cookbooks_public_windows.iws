@@ -150,7 +150,7 @@
       <file leaf-file-name="initialize_bdc.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="93" selection-start="613" selection-end="613" vertical-scroll-proportion="0.14239483">
+            <state line="8" column="24" selection-start="394" selection-end="394" vertical-scroll-proportion="0.103559874">
               <folding />
             </state>
           </provider>
@@ -840,7 +840,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="93" selection-start="613" selection-end="613" vertical-scroll-proportion="0.14239483">
+        <state line="8" column="24" selection-start="394" selection-end="394" vertical-scroll-proportion="0.103559874">
           <folding />
         </state>
       </provider>
