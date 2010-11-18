@@ -8,6 +8,7 @@ version "0.0.1"
 recipe "ad_tools::initialize_bdc", "Runs dcpromo with appropriate answers to create a backup or slave domain controller for the specified domain"
 recipe "ad_tools::demote_dc", "Removes the domain controller from the forest and uninstalls the AD binaries"
 recipe "ad_tools::join_domain", "Adds the node to an existing domain"
+recipe "ad_tools::reset_is_bdc", "Debug script so I can test things relating to active directory."  
 
 depends "utilities"
 
