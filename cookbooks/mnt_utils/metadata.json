@@ -1,30 +1,63 @@
 {
-  "version": "0.0.1",
-  "description": "Random useful bits of code",
-  "long_description": "Random useful bits of code",
-  "maintainer": "Ryan J. Geyer",
-  "maintainer_email": "rgeyer@its.jnj.com",
-  "name": "mnt_utils",
-  "depends": "utilities",
   "recipes": {
-    "mnt_utils::default": "Just for experimentation right now",
-    "mnt_utils::set_dns": "Sets the DNS search list ot the provided CSV list",
     "mnt_utils::set_hostname": "Sets the system's hostname to match the nickname in the RightScale dashboard",
+    "mnt_utils::helloworld": "A recipe which should always work, used as a control test",
+    "mnt_utils::set_dns": "Sets the DNS search list ot the provided CSV list",
     "mnt_utils::install_bginfo": "Installs the BGInfo tool and sets it to run on each user login",
-    "mnt_utils::helloworld": "A recipe which should always work, used as a control test"
+    "mnt_utils::default": "Just for experimentation right now"
+  },
+  "suggestions": {
+  },
+  "license": "Apache v2.0",
+  "long_description": "Random useful bits of code",
+  "conflicting": {
+  },
+  "dependencies": {
+    "utilities": [
+
+    ]
+  },
+  "providing": {
+  },
+  "description": "Random useful bits of code",
+  "platforms": {
+  },
+  "maintainer": "Ryan J. Geyer",
+  "version": "0.0.1",
+  "replacing": {
+  },
+  "maintainer_email": "rgeyer@its.jnj.com",
+  "groupings": {
+  },
+  "name": "mnt_utils",
+  "recommendations": {
   },
   "attributes": {
-    "mnt_utils/dns_list": {
-      "display_name": "A comma separated list of IPV4 addresses of DNS servers",
-      "description": "A comma separated list of IPV4 addresses of DNS servers",
-      "recipes": [ "mnt_utils::set_dns" ],
-      "required": "required"
-    },
     "mnt_utils/rs_server_name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "mnt_utils::set_hostname"
+      ],
       "display_name": "RightScale dashboard nickname",
-      "description": "The RightScale dashboard nickname, this should be set to ENV:RS_SERVER_NAME",
-      "recipes": [ "mnt_utils::set_hostname" ],
-      "required": "required"
+      "description": "The RightScale dashboard nickname, this should be set to ENV:RS_SERVER_NAME"
+    },
+    "mnt_utils/dns_list": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "mnt_utils::set_dns"
+      ],
+      "display_name": "A comma separated list of IPV4 addresses of DNS servers",
+      "description": "A comma separated list of IPV4 addresses of DNS servers"
     }
   }
 }

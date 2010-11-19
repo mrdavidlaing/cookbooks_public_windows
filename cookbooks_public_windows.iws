@@ -110,89 +110,79 @@
   </component>
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="default.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/attributes/default.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="join_domain.ps1" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="71" selection-start="0" selection-end="408" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demote_dc.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialize_bdc.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="964" selection-end="1000" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="answers_demote.txt.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.08117249">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset_is_bdc.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/reset_is_bdc.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="metadata.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="69" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ad.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/resources/ad.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="active_directory.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/resources/active_directory.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="default.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/attributes/default.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="join_domain.ps1" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="14" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="demote_dc.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="39" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="initialize_bdc.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="60" selection-start="851" selection-end="851" vertical-scroll-proportion="0.51235956">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="change_rightlink_service_account.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="23" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="logon_account.ps1" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/service/logon_account.ps1">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="31" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="service.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/resources/service.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="48" selection-start="232" selection-end="232" vertical-scroll-proportion="0.13452914">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -206,11 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/join_domain/join_domain.ps1" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/resources/ad_tools.rb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad_tools/join_domain.ps1" />
-        <option value="$PROJECT_DIR$/cookbooks/mnt_utils/recipes/install_bginfo.rb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_bdc.txt.erb" />
         <option value="$PROJECT_DIR$/cookbooks/db_mssql/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1" />
@@ -218,10 +203,15 @@
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/resources/ad.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/attributes/default.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/reset_is_bdc.rb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_bdc_manual.txt.erb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/mnt_utils/metadata.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/mnt_utils/resources/service.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/service/logon_account.ps1" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
       </list>
     </option>
   </component>
@@ -316,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app_ad" />
+              <option name="myItemId" value="mnt_utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,7 +324,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app_ad" />
+              <option name="myItemId" value="mnt_utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -356,7 +346,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ad_tools" />
+              <option name="myItemId" value="mnt_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="powershell_providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbook_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_ad" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,14 +391,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ad_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,54 +435,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="recipes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookbooks_public_windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookbook_public_windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookbooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ad_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="powershell_providers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookbooks_public_windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookbook_public_windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookbooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ad_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="attributes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -695,7 +655,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="160" width="1680" height="1050" extended-state="0" />
+    <frame x="49" y="54" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -751,77 +711,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/install_bginfo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="876" selection-end="876" vertical-scroll-proportion="0.37540454">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/db_mssql/metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="1188" selection-end="1189" vertical-scroll-proportion="0.75730336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/db_mssql/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="182" selection-end="182" vertical-scroll-proportion="0.051779937">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/initialize_bdc.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="615" selection-end="615" vertical-scroll-proportion="0.18122977">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="0.025889968">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/join_domain.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="3" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/resources/active_directory.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="71" selection-start="0" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/resources/ad.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/attributes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -835,16 +725,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="69" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
+        <state line="6" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.08117249">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_bdc_manual.txt.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="964" selection-end="1000" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.36527622">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="887" selection-end="887" vertical-scroll-proportion="0.3497758">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/attributes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -856,9 +774,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb">
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/metadata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.08117249">
+        <state line="12" column="40" selection-start="586" selection-end="586" vertical-scroll-proportion="0.15876517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="105" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.31753033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/resources/ad.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="0" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/resources/service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="232" selection-end="232" vertical-scroll-proportion="0.13452914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/service/logon_account.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="60" selection-start="851" selection-end="851" vertical-scroll-proportion="0.51235956">
           <folding />
         </state>
       </provider>
