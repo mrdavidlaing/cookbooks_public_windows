@@ -14,9 +14,6 @@
   "dependencies": {
     "utilities": [
 
-    ],
-    "mnt_utils": [
-
     ]
   },
   "providing": {
