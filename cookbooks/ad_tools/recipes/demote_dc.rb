@@ -6,12 +6,12 @@ template answers_file do
   source "answers_demote.txt.erb"
 end
 
-powershell "Demote AD" do
-  powershell_script = <<'POWERSHELL_SCRIPT'
-  start-process -FilePath "$env:windir\Sysnative\dcpromo.exe" -ArgumentList /answer:C:\answers.txt -Wait
-
-  del "C:\answers.txt"
-POWERSHELL_SCRIPT
-
-  source(powershell_script)
+ad_tools_ad "Demote server from DC role" do
+  action :unattended_dcpromo
 end
+
+right_link_tag "ad:*" do
+  action :remove
+end
+
+@node[:ad_bdc_initialized] = false

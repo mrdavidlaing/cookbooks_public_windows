@@ -129,19 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="join_domain.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/join_domain.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="3" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="demote_dc.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="176" selection-end="425" vertical-scroll-proportion="0.0">
+            <state line="8" column="39" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,7 +141,16 @@
       <file leaf-file-name="initialize_bdc.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="35" selection-start="1269" selection-end="1305" vertical-scroll-proportion="0.0">
+            <state line="25" column="35" selection-start="964" selection-end="1000" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answers_demote.txt.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.08117249">
               <folding />
             </state>
           </provider>
@@ -165,10 +165,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metadata.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="metadata.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="69" selection-start="745" selection-end="745" vertical-scroll-proportion="0.12107623">
+            <state line="9" column="69" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -206,8 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/join_domain/join_domain.ps1" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/resources/ad_tools.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad_tools/join_domain.ps1" />
@@ -219,9 +217,11 @@
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/join_domain.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/resources/ad.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/attributes/default.rb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/reset_is_bdc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb" />
       </list>
     </option>
   </component>
@@ -751,13 +751,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_bdc.txt.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="350" selection-end="350" vertical-scroll-proportion="0.25411764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/install_bginfo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="11" selection-start="876" selection-end="876" vertical-scroll-proportion="0.37540454">
@@ -782,13 +775,6 @@
     <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/metadata.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="176" selection-end="425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -842,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="1269" selection-end="1305" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/reset_is_bdc.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
@@ -858,7 +837,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="69" selection-start="745" selection-end="745" vertical-scroll-proportion="0.12107623">
+        <state line="9" column="69" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="35" selection-start="964" selection-end="1000" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/demote_dc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.08117249">
           <folding />
         </state>
       </provider>

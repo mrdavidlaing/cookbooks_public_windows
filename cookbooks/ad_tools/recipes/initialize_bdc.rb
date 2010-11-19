@@ -21,18 +21,6 @@ if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_bdc
     action :unattended_dcpromo
   end
 
-  log "Got past that ish yo!"
-
-#  powershell "Promote BDC" do
-#    powershell_script = <<'POWERSHELL_SCRIPT'
-#    start-process -FilePath "$env:windir\Sysnative\dcpromo.exe" -ArgumentList /answer:C:\answers.txt -Wait
-#
-#    del "C:\answers.txt"
-#POWERSHELL_SCRIPT
-#
-#    source(powershell_script)
-#  end
-
   right_link_tag "ad:domain=#{@node[:ad_tools][:domain_name]}"
   right_link_tag "ad:role=bdc"
 
