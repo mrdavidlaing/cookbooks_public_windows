@@ -11,7 +11,6 @@ recipe "ad_tools::join_domain", "Adds the node to an existing domain"
 recipe "ad_tools::reset_is_bdc", "Debug script so I can test things relating to active directory."  
 
 depends "utilities"
-depends "mnt_utils"
 
 attribute "utilities/admin_password",
   :display_name => "New administrator password",

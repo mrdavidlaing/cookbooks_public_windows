@@ -18,6 +18,7 @@ attribute "mnt_utils/dns_list",
           :description => "A comma separated list of IPV4 addresses of DNS servers",
           :recipes => [ "mnt_utils::set_dns" ],
           :required => "required"
+
 attribute "mnt_utils/rs_server_name",
           :display_name => "RightScale dashboard nickname",
           :description => "The RightScale dashboard nickname, this should be set to ENV:RS_SERVER_NAME",
