@@ -120,19 +120,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initialize_bdc.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="initialize_bdc.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="2" selection-start="793" selection-end="793" vertical-scroll-proportion="0.24595469">
+            <state line="19" column="2" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metadata.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="metadata.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+            <state line="12" column="19" selection-start="867" selection-end="887" vertical-scroll-proportion="0.15789473">
               <folding />
             </state>
           </provider>
@@ -181,11 +181,11 @@
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/service/logon_account.ps1" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/db_mssql/metadata.rb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
       </list>
     </option>
   </component>
@@ -722,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="40" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
@@ -752,7 +745,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="793" selection-end="793" vertical-scroll-proportion="0.24595469">
+        <state line="19" column="2" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="867" selection-end="887" vertical-scroll-proportion="0.15789473">
           <folding />
         </state>
       </provider>
