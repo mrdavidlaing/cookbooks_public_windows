@@ -12,9 +12,14 @@ if ( ($service_account_user -eq "") -and ($service_account_pass -eq "") ) {
   $service_account_pass = $null
 }
 
+Write-Output("Past the conditional statement")
+
 $service="name='$service_name'"
 
+Write-Output("The service WMI search is $service")
+
 $svc=Get-WmiObject win32_service -filter $service
-if ($restart_service.ToLower() -eq "true") { $svc.StopService() }
+
+#if ($restart_service.ToLower() -eq "true") { $svc.StopService() }
 $svc.change($null,$null,$null,$null,$null,$null,$account,$password,$null,$null,$null)
-if ($restart_service.ToLower() -eq "true") { $svc.StartService() }
+#if ($restart_service.ToLower() -eq "true") { $svc.StartService() }
