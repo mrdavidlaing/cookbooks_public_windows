@@ -20,6 +20,9 @@ Write-Output("The service WMI search is $service")
 
 $svc=Get-WmiObject win32_service -filter $service
 
+Write-Output("Service object is $svc")
+
 #if ($restart_service.ToLower() -eq "true") { $svc.StopService() }
-$svc.change($null,$null,$null,$null,$null,$null,$account,$password,$null,$null,$null)
+if ($svc) { $svc.change($null,$null,$null,$null,$null,$null,$account,$password,$null,$null,$null) }
+else { Write-Output("I no can getting the svc") }
 #if ($restart_service.ToLower() -eq "true") { $svc.StartService() }
