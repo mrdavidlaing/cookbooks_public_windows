@@ -159,7 +159,25 @@
       <file leaf-file-name="set_logon_account.ps1" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="478" selection-end="478" vertical-scroll-proportion="0.116504855">
+            <state line="16" column="18" selection-start="627" selection-end="627" vertical-scroll-proportion="0.21168688">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unattended_dcpromo.ps1" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="14" selection-start="0" selection-end="14" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set_dns.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/set_dns.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="20" selection-start="244" selection-end="257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -702,13 +720,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="586" selection-end="586" vertical-scroll-proportion="0.15876517">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/attributes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -758,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="126" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
@@ -773,20 +777,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/initialize_bdc.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="372" selection-end="372" vertical-scroll-proportion="0.103559874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -807,9 +797,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="372" selection-end="372" vertical-scroll-proportion="0.10584344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/set_dns.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="244" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="0" selection-end="14" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="478" selection-end="478" vertical-scroll-proportion="0.116504855">
+        <state line="16" column="18" selection-start="627" selection-end="627" vertical-scroll-proportion="0.21168688">
           <folding />
         </state>
       </provider>
