@@ -3,6 +3,8 @@ $service_account_user = Get-NewResource service_account_user
 $service_account_pass = Get-NewResource service_account_pass
 $restart_service = Get-NewResource restart_service
 
+$computer = get-content env:computername
+
 Write-Output("Service name is $service_name")
 Write-Output("restart service is $restart_service")
 
@@ -18,11 +20,14 @@ $service="name='$service_name'"
 
 Write-Output("The service WMI search is $service")
 
-$svc=Get-WmiObject win32_service -filter $service
+$svc=Get-WmiObject win32_service -computer $computer -filter $service
 
 Write-Output("Service object is $svc")
 
 #if ($restart_service.ToLower() -eq "true") { $svc.StopService() }
-if ($svc) { $svc.change($null,$null,$null,$null,$null,$null,$account,$password,$null,$null,$null) }
+if ($svc) {
+  $svc.psbase.Scope.Options.EnablePrivileges = $true
+  $svc.change($null,$null,$null,$null,$null,$null,$account,$password,$null,$null,$null)
+}
 else { Write-Output("I no can getting the svc") }
 #if ($restart_service.ToLower() -eq "true") { $svc.StartService() }
