@@ -111,10 +111,28 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="change_rightlink_service_account.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="1" selection-end="363" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="metadata.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="19" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="win32_svc.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.06472492">
+            <state line="5" column="48" selection-start="230" selection-end="230" vertical-scroll-proportion="0.06472492">
               <folding />
             </state>
           </provider>
@@ -144,11 +162,11 @@
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_bdc_manual.txt.erb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/resources/service.rb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/service/logon_account.ps1" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/metadata.rb" />
-        <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/db_mssql/metadata.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb" />
       </list>
     </option>
@@ -293,6 +311,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbook_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ad_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbook_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ad_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,20 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="359" selection-end="359" vertical-scroll-proportion="0.12944984">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="2" selection-start="1914" selection-end="2188" vertical-scroll-proportion="0.6315789">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/app_ad/metadata.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -674,9 +718,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="1" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.06472492">
+        <state line="5" column="48" selection-start="230" selection-end="230" vertical-scroll-proportion="0.06472492">
           <folding />
         </state>
       </provider>
