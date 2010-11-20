@@ -5,6 +5,16 @@ $restart_service = Get-NewResource restart_service
 
 $computer = get-content env:computername
 
+# TODO: Need to make this smarter so I can use the local admin or AD admin depending on the circumstances
+$Password = Get-ChefNode utilities, admin_password
+
+Write-Output("This is super naughty, but the password is $Password")
+
+$Password = ConvertTo-SecureString $Password -AsPlainText -Force
+
+$UserName = ".\Administrator"
+$Cred = New-Object System.Management.Automation.PSCredential $UserName, $Password
+
 Write-Output("Service name is $service_name")
 Write-Output("restart service is $restart_service")
 
@@ -20,13 +30,12 @@ $service="name='$service_name'"
 
 Write-Output("The service WMI search is $service")
 
-$svc=Get-WmiObject win32_service -computer $computer -filter $service
+$svc=Get-WmiObject win32_service -computer $computer -cred $Cred -filter $service
 
 Write-Output("Service object is $svc")
 
 #if ($restart_service.ToLower() -eq "true") { $svc.StopService() }
 if ($svc) {
-  $svc.psbase.Scope.Options.EnablePrivileges = $true
   $svc.change($null,$null,$null,$null,$null,$null,$account,$password,$null,$null,$null)
 }
 else { Write-Output("I no can getting the svc") }
