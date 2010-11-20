@@ -5,16 +5,6 @@ $restart_service = Get-NewResource restart_service
 
 $computer = get-content env:computername
 
-# TODO: Need to make this smarter so I can use the local admin or AD admin depending on the circumstances
-$Password = Get-ChefNode utilities, admin_password
-
-Write-Output("This is super naughty, but the password is $Password")
-
-$Password = ConvertTo-SecureString $Password -AsPlainText -Force
-
-$UserName = ".\Administrator"
-$Cred = New-Object System.Management.Automation.PSCredential $UserName, $Password
-
 Write-Output("Service name is $service_name")
 Write-Output("restart service is $restart_service")
 
