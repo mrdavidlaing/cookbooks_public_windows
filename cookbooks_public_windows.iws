@@ -111,10 +111,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="change_rightlink_service_account.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="change_rightlink_service_account.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="0.116504855">
+            <state line="9" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,10 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="set_logon_account.ps1" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="set_logon_account.ps1" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="40" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
+            <state line="6" column="68" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0776699">
               <folding />
             </state>
           </provider>
@@ -190,11 +190,11 @@
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/db_mssql/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb" />
-        <option value="$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb" />
         <option value="$PROJECT_DIR$/cookbooks/mnt_utils/recipes/default.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/metadata.rb" />
         <option value="$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1" />
       </list>
     </option>
   </component>
@@ -746,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="40" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
@@ -783,7 +776,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="0.116504855">
+        <state line="9" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="68" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0776699">
           <folding />
         </state>
       </provider>
