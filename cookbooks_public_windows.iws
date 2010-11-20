@@ -159,7 +159,7 @@
       <file leaf-file-name="set_logon_account.ps1" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="737" selection-end="737" vertical-scroll-proportion="0.20711975">
+            <state line="9" column="1" selection-start="478" selection-end="478" vertical-scroll-proportion="0.116504855">
               <folding />
             </state>
           </provider>
@@ -400,6 +400,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbook_public_windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ad_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="powershell_providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ad" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -676,20 +702,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_demote.txt.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.08117249">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/templates/default/answers_bdc_manual.txt.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.36527622">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/metadata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="40" selection-start="586" selection-end="586" vertical-scroll-proportion="0.15876517">
@@ -707,13 +719,6 @@
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/resources/ad.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="8" selection-start="189" selection-end="189" vertical-scroll-proportion="0.13483146">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="372" selection-end="372" vertical-scroll-proportion="0.21573034">
           <folding />
         </state>
       </provider>
@@ -746,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="2" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
@@ -774,6 +772,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/initialize_bdc.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/join_domain.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="372" selection-end="372" vertical-scroll-proportion="0.103559874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/resources/win32_svc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/change_rightlink_service_account.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
@@ -783,7 +809,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="737" selection-end="737" vertical-scroll-proportion="0.20711975">
+        <state line="9" column="1" selection-start="478" selection-end="478" vertical-scroll-proportion="0.116504855">
           <folding />
         </state>
       </provider>
