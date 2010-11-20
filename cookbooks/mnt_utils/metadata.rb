@@ -14,13 +14,13 @@ recipe "mnt_utils::install_bginfo", "Installs the BGInfo tool and sets it to run
 recipe "mnt_utils::helloworld", "A recipe which should always work, used as a control test"
 
 attribute "mnt_utils/dns_list",
-          :display_name => "A comma separated list of IPV4 addresses of DNS servers",
-          :description => "A comma separated list of IPV4 addresses of DNS servers",
-          :recipes => [ "mnt_utils::set_dns" ],
-          :required => "required"
+  :display_name => "A comma separated list of IPV4 addresses of DNS servers",
+  :description => "A comma separated list of IPV4 addresses of DNS servers",
+  :recipes => [ "mnt_utils::set_dns" ],
+  :required => "required"
 
 attribute "mnt_utils/rs_server_name",
-          :display_name => "RightScale dashboard nickname",
-          :description => "The RightScale dashboard nickname, this should be set to ENV:RS_SERVER_NAME",
-          :recipes => [ "mnt_utils::set_hostname" ],
-          :required => "required"
+  :display_name => "RightScale dashboard nickname",
+  :description => "The RightScale dashboard nickname, this should be set to ENV:RS_SERVER_NAME",
+  :recipes => [ "mnt_utils::set_hostname" ],
+  :required => "required"

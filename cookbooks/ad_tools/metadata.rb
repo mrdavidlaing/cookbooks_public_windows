@@ -19,38 +19,38 @@ attribute "utilities/admin_password",
   :required => "required"
 
 attribute "ad_tools/admin_user",
-          :display_name => "Domain Administrator Username",
-          :description => "Domain Administratoru Username",
-          :recipes => [
-            "ad_tools::initialize_bdc",
-            "ad_tools::join_domain"
-          ],
-          :required => "required"
+  :display_name => "Domain Administrator Username",
+  :description => "Domain Administratoru Username",
+  :recipes => [
+    "ad_tools::initialize_bdc",
+    "ad_tools::join_domain"
+  ],
+  :required => "required"
 
 attribute "ad_tools/admin_domain",
-          :display_name => "Domain Administrator Domain",
-          :description => "Domain Administrator Domain.  The <domain> part of <domain>\<username> for an active directory username",
-          :recipes => [
-            "ad_tools::initialize_bdc",
-            "ad_tools::join_domain"
-          ],
-          :required => "required"
+  :display_name => "Domain Administrator Domain",
+  :description => "Domain Administrator Domain.  The <domain> part of <domain>\<username> for an active directory username",
+  :recipes => [
+    "ad_tools::initialize_bdc",
+    "ad_tools::join_domain"
+  ],
+  :required => "required"
 
 attribute "ad_tools/admin_pass",
-          :display_name => "Domain Administrator Password",
-          :description => "Domain Administrator Password",
-          :recipes => [
-            "ad_tools::initialize_bdc",
-            "ad_tools::join_domain"
-          ],
-          :required => "required"
+  :display_name => "Domain Administrator Password",
+  :description => "Domain Administrator Password",
+  :recipes => [
+    "ad_tools::initialize_bdc",
+    "ad_tools::join_domain"
+  ],
+  :required => "required"
 
 attribute "ad_tools/domain_name",
-          :display_name => "FQDN of new or replicated active directory domain",
-          :description => "FQDN of new or replicated active directory domain",
-          :recipes => [
-            "ad_tools::initialize_bdc",
-            "ad_tools::demote_dc",
-            "ad_tools::join_domain"
-          ],
-          :required => "required"
+  :display_name => "FQDN of new or replicated active directory domain",
+  :description => "FQDN of new or replicated active directory domain",
+  :recipes => [
+    "ad_tools::initialize_bdc",
+    "ad_tools::demote_dc",
+    "ad_tools::join_domain"
+  ],
+  :required => "required"
