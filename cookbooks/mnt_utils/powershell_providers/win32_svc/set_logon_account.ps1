@@ -12,6 +12,6 @@ if ( $service_account_user == "" && $service_account_pass = "" ) {
 $service="name='$service_name'"
 
 $svc=gwmi win32_service -filter $service
-if ($restart_service) { $svc.StopService() }
+if ($restart_service.ToLower() == "true") { $svc.StopService() }
 $svc.change($null,$null,$null,$null,$null,$null,$account,$password,$null,$null,$null)
-if ($restart_service) { $svc.StartService() }
+if ($restart_service.ToLower() == "true") { $svc.StartService() }
