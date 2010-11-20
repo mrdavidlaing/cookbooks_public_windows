@@ -11,31 +11,35 @@ EOF
   source(powershell_script)
 end
 
-Set s = @node.entrySet();
-Iterator sit = s.iterator();
-boolean isFirst = true;
+log "The whole node (hopefully) is #{node}"
 
-while (sit.hasNext()) {
-    Map.Entry elem = (Map.Entry)sit.next();
-    String key = (String)elem.getKey();
-    Object value = elem.getValue();
+#Set s = @node.entrySet();
+#Iterator sit = s.iterator();
+#boolean isFirst = true;
+#
+#while (sit.hasNext()) {
+#    Map.Entry elem = (Map.Entry)sit.next();
+#    String key = (String)elem.getKey();
+#    Object value = elem.getValue();
+#
+#    if (value instanceof String) {
+#        // recursivity stop condition
+#        System.out.print(key);
+#        System.out.print(" : ");
+#        System.out.println(value);
+#    } else {
+#        if (!isFirst) {
+#            System.out.println("");
+#        } else {
+#            isFirst = false;
+#        }
+#        System.out.println(key);
+#        Map valueMap = (Map)elem.getValue();
+#        dumpMapOfMap(valueMap);
+#    }
+#}
 
-    if (value instanceof String) {
-        // recursivity stop condition
-        System.out.print(key);
-        System.out.print(" : ");
-        System.out.println(value);
-    } else {
-        if (!isFirst) {
-            System.out.println("");
-        } else {
-            isFirst = false;
-        }
-        System.out.println(key);
-        Map valueMap = (Map)elem.getValue();
-        dumpMapOfMap(valueMap);
-    }
-}
+
 #
 #server_collection "servers" do
 #  tags ["rs_monitoring:*"]
