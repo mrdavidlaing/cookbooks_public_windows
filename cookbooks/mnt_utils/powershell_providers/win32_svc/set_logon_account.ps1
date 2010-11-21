@@ -11,8 +11,8 @@ Write-Output("restart service is $restart_service")
 # The documentation says that "NULL" for StartName and StartPassword will result in Local System, but
 # it looks like you have to be explicit about it.
 # http://msdn.microsoft.com/en-us/library/aa384901(v=VS.85).aspx
-if ( ($service_account_user -eq "") -and ($service_account_pass -eq "") ) {
-  $service_account_user = "LocalSystem"
+if ( (!$service_account_user) -and (!$service_account_pass) ) {
+  $service_account_user = "Local System"
   $service_account_pass = $null
   Write-Output("Changed from blank")
 } else { Write-Output("The user creds remained blank") }
