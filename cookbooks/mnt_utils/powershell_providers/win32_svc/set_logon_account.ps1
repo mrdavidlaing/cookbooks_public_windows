@@ -15,7 +15,7 @@ if ( ($service_account_user -eq "") -and ($service_account_pass -eq "") ) {
   $service_account_user = "LocalSystem"
   $service_account_pass = $null
   Write-Output("Changed from blank")
-}
+} else { Write-Output("The user creds remained blank") }
 
 Write-Output("Past the conditional statement")
 
