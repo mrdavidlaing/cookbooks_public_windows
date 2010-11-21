@@ -12,7 +12,7 @@ Write-Output("restart service is $restart_service")
 # it looks like you have to be explicit about it.
 # http://msdn.microsoft.com/en-us/library/aa384901(v=VS.85).aspx
 if ( ($service_account_user -eq "") -and ($service_account_pass -eq "") ) {
-  $service_account_user = "Local System"
+  $service_account_user = "LocalSystem"
   $service_account_pass = $null
 }
 
