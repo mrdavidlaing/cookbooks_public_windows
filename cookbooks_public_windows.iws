@@ -159,7 +159,7 @@
       <file leaf-file-name="set_logon_account.ps1" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="685" selection-end="685" vertical-scroll-proportion="0.18522602">
+            <state line="16" column="36" selection-start="761" selection-end="761" vertical-scroll-proportion="0.21168688">
               <folding />
             </state>
           </provider>
@@ -819,7 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/powershell_providers/win32_svc/set_logon_account.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="685" selection-end="685" vertical-scroll-proportion="0.18522602">
+        <state line="16" column="36" selection-start="761" selection-end="761" vertical-scroll-proportion="0.21168688">
           <folding />
         </state>
       </provider>

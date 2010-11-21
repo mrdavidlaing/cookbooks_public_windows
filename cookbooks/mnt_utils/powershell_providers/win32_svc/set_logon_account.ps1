@@ -14,6 +14,7 @@ Write-Output("restart service is $restart_service")
 if ( ($service_account_user -eq "") -and ($service_account_pass -eq "") ) {
   $service_account_user = "LocalSystem"
   $service_account_pass = $null
+  Write-Output("Changed from blank")
 }
 
 Write-Output("Past the conditional statement")
