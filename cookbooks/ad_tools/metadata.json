@@ -1,5 +1,6 @@
 {
   "recipes": {
+    "ad_tools::reset_joined_domain": "Debug script so I can test things relating to active directory",
     "ad_tools::change_rightlink_service_account": "Changes the service account for both RightScale services to Local System",
     "ad_tools::demote_dc": "Removes the domain controller from the forest and uninstalls the AD binaries",
     "ad_tools::reset_is_bdc": "Debug script so I can test things relating to active directory.",
