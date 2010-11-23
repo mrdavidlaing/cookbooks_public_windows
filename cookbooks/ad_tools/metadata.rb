@@ -9,6 +9,7 @@ recipe "ad_tools::initialize_bdc", "Runs dcpromo with appropriate answers to cre
 recipe "ad_tools::demote_dc", "Removes the domain controller from the forest and uninstalls the AD binaries"
 recipe "ad_tools::join_domain", "Adds the node to an existing domain"
 recipe "ad_tools::reset_is_bdc", "Debug script so I can test things relating to active directory."
+recipe "ad_tools::reset_joined_domain", "Debug script so I can test things relating to active directory"
 recipe "ad_tools::change_rightlink_service_account", "Changes the service account for both RightScale services to Local System"
 
 depends "utilities"
