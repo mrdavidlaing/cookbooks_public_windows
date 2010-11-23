@@ -18,9 +18,11 @@ unless @node[:ad_tools_joined_domain]
   ad_tools_ad domain do
     admin_user admin_username
     admin_pass admin_password
-    action :join
+    action :join_domain
   end
 
   right_link_tag "ad:domain=#{@node[:ad_tools][:domain_name]}"
   right_link_tag "ad:role=member"
+
+  @node[:ad_tools_joined_domain] = true
 do
