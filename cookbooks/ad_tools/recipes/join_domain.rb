@@ -1,6 +1,6 @@
 # app_ad::join
 
-unless @node[:ad_tools_joined_domain]
+if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_tools_joined_domain])
   # 1. Retrieve inputs
   domain   = node[:ad_tools][:admin_domain]
   admin_username = node[:ad_tools][:admin_user]
@@ -8,11 +8,6 @@ unless @node[:ad_tools_joined_domain]
 
   log "domain:         #{domain}"
   log "admin username: #{admin_username}"
-
-  # 2. Set DNS Server to be DC
-  app_ad_dns_server domain do
-    action :set
-  end
 
   # 3. Join domain
   ad_tools_ad domain do
@@ -25,4 +20,4 @@ unless @node[:ad_tools_joined_domain]
   right_link_tag "ad:role=member"
 
   @node[:ad_tools_joined_domain] = true
-do
+end
