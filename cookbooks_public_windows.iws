@@ -114,7 +114,7 @@
       <file leaf-file-name="join_domain.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/join_domain.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="3" selection-start="631" selection-end="631" vertical-scroll-proportion="0.28478965">
+            <state line="5" column="126" selection-start="307" selection-end="307" vertical-scroll-proportion="0.06472492">
               <folding />
             </state>
           </provider>
@@ -123,7 +123,7 @@
       <file leaf-file-name="initialize_bdc.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="556" selection-end="650" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="268" selection-end="554" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -785,14 +785,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/initialize_bdc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="556" selection-end="650" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="268" selection-end="554" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/recipes/join_domain.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="3" selection-start="631" selection-end="631" vertical-scroll-proportion="0.28478965">
+        <state line="5" column="126" selection-start="307" selection-end="307" vertical-scroll-proportion="0.06472492">
           <folding />
         </state>
       </provider>

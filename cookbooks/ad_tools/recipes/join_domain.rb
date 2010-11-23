@@ -1,5 +1,10 @@
 # app_ad::join
 
+log "Hostname Set is #{@node[:mnt_utils_hostname_set]}"
+log "DNS Set is #{@node[:mnt_utils_dns_set]}"
+log "Default ad_bdc_init is #{@node[:ad_tools_joined_domain]}"
+log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_tools_joined_domain]}"
+
 if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_tools_joined_domain])
   # 1. Retrieve inputs
   domain   = node[:ad_tools][:admin_domain]
