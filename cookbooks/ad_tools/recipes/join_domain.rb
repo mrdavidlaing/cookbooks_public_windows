@@ -7,7 +7,7 @@ log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_ut
 
 if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_tools_joined_domain])
   # 1. Retrieve inputs
-  domain   = node[:ad_tools][:admin_domain]
+  domain   = node[:ad_tools][:domain_name]
   admin_username = node[:ad_tools][:admin_user]
   admin_password = node[:ad_tools][:admin_pass]
 
