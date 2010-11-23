@@ -2,7 +2,7 @@
 
 log "Hostname Set is #{@node[:mnt_utils_hostname_set]}"
 log "DNS Set is #{@node[:mnt_utils_dns_set]}"
-log "Default ad_bdc_init is #{@node[:ad_tools_joined_domain]}"
+log "Default ad_tools_joined_domain is #{@node[:ad_tools_joined_domain]}"
 log "Should run this script is #{@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_tools_joined_domain]}"
 
 if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_tools_joined_domain])
@@ -25,4 +25,6 @@ if(@node[:mnt_utils_hostname_set] && @node[:mnt_utils_dns_set] && !@node[:ad_too
   right_link_tag "ad:role=member"
 
   @node[:ad_tools_joined_domain] = true
+
+  include_recipe 'utilities::system_reboot'
 end
