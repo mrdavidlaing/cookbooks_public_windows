@@ -129,10 +129,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unattended_dcpromo.ps1" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="unattended_dcpromo.ps1" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="14" selection-start="0" selection-end="14" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install_windowsupdates.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/install_windowsupdates.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="13" selection-start="3988" selection-end="3988" vertical-scroll-proportion="0.2655889">
               <folding />
             </state>
           </provider>
@@ -840,16 +849,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/install_windowsupdates.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="63" selection-start="4665" selection-end="4665" vertical-scroll-proportion="0.4595843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/ad_tools/powershell_providers/ad/unattended_dcpromo.ps1">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="0" selection-end="14" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/mnt_utils/recipes/install_windowsupdates.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="13" selection-start="3988" selection-end="3988" vertical-scroll-proportion="0.2655889">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
