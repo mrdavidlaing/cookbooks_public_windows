@@ -12,6 +12,7 @@ recipe "mnt_utils::set_dns", "Sets the DNS search list ot the provided CSV list"
 recipe "mnt_utils::set_hostname", "Sets the system's hostname to match the nickname in the RightScale dashboard"
 recipe "mnt_utils::install_bginfo", "Installs the BGInfo tool and sets it to run on each user login"
 recipe "mnt_utils::helloworld", "A recipe which should always work, used as a control test"
+recipe "mnt_utils::install_windowsupdates", "Downloads and installs all pending windows updates for the server"
 
 attribute "mnt_utils/dns_list",
   :display_name => "A comma separated list of IPV4 addresses of DNS servers",

@@ -1,6 +1,7 @@
 {
   "recipes": {
     "mnt_utils::set_hostname": "Sets the system's hostname to match the nickname in the RightScale dashboard",
+    "mnt_utils::install_windowsupdates": "Downloads and installs all pending windows updates for the server",
     "mnt_utils::helloworld": "A recipe which should always work, used as a control test",
     "mnt_utils::set_dns": "Sets the DNS search list ot the provided CSV list",
     "mnt_utils::install_bginfo": "Installs the BGInfo tool and sets it to run on each user login",

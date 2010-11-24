@@ -22,10 +22,10 @@
 #Requires -Version 2.0
 
 #Variables to customize
-$EmailReport = $true
-$FileReport = $true
+$EmailReport = $false
+$FileReport = $false
 $To = "it-reports@domain.com"
-$From = "powershell@domain.com"
+$From = "RightScriptAutomation@foo.bar"
 $SMTPServer = "smtp.domain.local"
 $FileReportPath = "\\domain.local\IT\Windows Update Reports\"
 $AutoRestart = $true
