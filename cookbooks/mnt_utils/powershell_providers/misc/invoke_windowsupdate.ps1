@@ -62,7 +62,7 @@ exit
 
 #Checking for available updates
 $updateSession = new-object -com "Microsoft.Update.Session"
-write-progress -Activity "Updating" -Status "Checking available updates"   
+write-output("Checking available updates")
 $updates=$updateSession.CreateupdateSearcher().Search($criteria).Updates
 $downloader = $updateSession.CreateUpdateDownloader()          
 $downloader.Updates = $Updates
@@ -91,7 +91,7 @@ if ($FileReport -eq $true) {
 else
 {
 #If updates are available, download and install
-write-progress -Activity 'Updating' -Status "Downloading $($downloader.Updates.count) updates"  
+write-output("Downloading $($downloader.Updates.count) updates")
 
 $Criteria="IsInstalled=0 and Type='Software'" 
 $resultcode= @{0="Not Started"; 1="In Progress"; 2="Succeeded"; 3="Succeeded With Errors"; 4="Failed" ; 5="Aborted" }
@@ -105,7 +105,7 @@ if (($Result.Hresult -eq 0) –and (($result.resultCode –eq 2) -or ($result.result
 $installer = $updateSession.CreateUpdateInstaller()       
 $installer.Updates = $updatesToInstall
 
-write-progress -Activity 'Updating' -Status "Installing $($Installer.Updates.count) updates"        
+write-output("Installing $($Installer.Updates.count) updates")        
 
 $installationResult = $installer.Install()        
 $Global:counter=-1       
